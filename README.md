@@ -40,14 +40,15 @@ ShopStack understands your query, searches online stores, and suggests the best 
 
 | Tool / API | Purpose |
 |------------|---------|
-| Gemini Vision | Process text description |
-| Gemini | Refines prompts for AI |
-| Tavily API | Text query → relevant results |
-| SerpApi | Fallback: Google/Bing results |
-| Fast API (backend) | Handles image uploads, runs BLIP, sends query (under development) |
-| React (frontend) | Show image previews + matched products |
-| Firebase | Cache searches or product info |
-| Pinecone | Vector database for embedding the generated product and finds the exact matched product |
+| Gemini Vision | Process natural language descriptions into actionable queries |
+| Gemini | Refines AI prompts for better recommendation results |
+| Tavily API | Converts text queries into relevant product results |
+| SerpApi | Fallback search engine results (Google/Bing) |
+| Fast API (backend) | Handles image uploads and sends queries to the AI engine (under development) |
+| React (frontend) | Displays image previews, product matches, and user interface components |
+| Firebase | Cache product data or user searches for faster access |
+| Pinecone | Vector database to store embeddings and retrieve exact or visually similar product matches efficiently |
+
 
 ---
 
