@@ -43,10 +43,10 @@ ShopStack understands your query, searches online stores, and suggests the best 
 | Gemini Vision | Process text description |
 | Gemini | Refines prompts for AI |
 | Tavily API | Text query → relevant results |
-| SerpApi (optional) | Fallback: Google/Bing results |
-| Fasr API (backend) | Handles image uploads, runs BLIP, sends query (under development) |
+| SerpApi | Fallback: Google/Bing results |
+| Fast API (backend) | Handles image uploads, runs BLIP, sends query (under development) |
 | React (frontend) | Show image previews + matched products |
-| Firebase (optional) | Cache searches or product info |
+| Firebase | Cache searches or product info |
 | Pinecone | Vector database for embedding the generated product and finds the exact matched product |
 
 ---
@@ -56,7 +56,7 @@ ShopStack understands your query, searches online stores, and suggests the best 
 **Homepage:**  
 ![Homepage](screenshots/homepage.png)
 
-**AI Features / Recommendations:**  
+**AI Features:**  
 ![AI Features](screenshots/Aifeatures.png)
 
 **Product Matching:**  
