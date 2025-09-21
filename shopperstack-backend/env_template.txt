@@ -1,0 +1,14 @@
+# API Keys for ShopperStack Backend
+# Copy this file to .env and add your actual API keys
+
+# HuggingFace API Key for BLIP image captioning
+# Get from: https://huggingface.co/settings/tokens
+HF_API_KEY=your_huggingface_api_key_here
+
+# Gemini API Key for query refinement
+# Get from: https://makersuite.google.com/app/apikey
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# Tavily API Key for product search
+# Get from: https://tavily.com/
+TAVILY_API_KEY=your_tavily_api_key_here 

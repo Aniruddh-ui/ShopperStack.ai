@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+uagents
+requests
+python-dotenv
+tavily-python
